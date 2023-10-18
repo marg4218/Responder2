@@ -1,0 +1,53 @@
+#preview_pane_div {
+    height: 100%;
+}
+
+
+#preview_pane {
+    width: 800px;
+    height: 900px;
+
+    padding: 4px;
+    border: 1px solid black;
+
+    margin-top: 10px;
+
+    background-color:white;
+    color: black;
+
+    text-align: justify;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+
+    overflow-y:auto;
+    
+
+}
+
+.defense_par_no {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.response_par_no {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 2.0;
+
+    text-align: justify;
+}

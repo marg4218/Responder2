@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .response_headers th {
+    padding:5px;
+    background-color: maroon;
+  }
+
+.response_row {
+    background-color: rgb(247, 177, 72);
+    color: black;
+}

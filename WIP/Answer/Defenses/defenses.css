@@ -1,0 +1,32 @@
+#defenses_div {
+    border: 1px solid black;
+    width: max-content;
+    min-width: max-content;
+}
+
+.defense_cats{
+    user-select: none;
+    display: block;
+    background-color: maroon;
+    color: aliceblue;
+    border-top: 4px solid rgb(106, 106, 106);
+    z-index: -1;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.defense_options {
+    display: block;
+    background-color:black;
+    border-top: 1px solid white;
+    padding: 4px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.defense_options:hover {
+    background-color: rgb(19, 56, 56);
+}
+
+
+
