@@ -5,7 +5,7 @@ var response_loader = [];
 var preview_array = [];
 
 
-newDiv = function(parent_id, new_id) 
+var newDiv = function(parent_id, new_id) 
 {
     let new_div = document.createElement("div");
     new_div.id = new_id;
@@ -14,7 +14,7 @@ newDiv = function(parent_id, new_id)
     parent.appendChild(new_div);
 
     return new_div;
-}
+};
 
 var numbers = [
     "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", 
@@ -27,7 +27,7 @@ var numbers = [
     'seventy', 'seventy-one', 'seventy-two', 'seventy-three', 'seventy-four', 'seventy-five', 'seventy-six', 'seventy-seven', 'seventy-eight', 'seventy-nine', 
     'eighty', 'eighty-one', 'eighty-two', 'eighty-three', 'eighty-four', 'eighty-five', 'eighty-six', 'eighty-seven', 'eighty-eight', 'eighty-nine', 
     'ninety', 'ninety-one', 'ninety-two', 'ninety-three', 'ninety-four', 'ninety-five', 'ninety-six', 'ninety-seven', 'ninety-eight', 'ninety-nine',
-]
+];
 
 // Transform Ordinal Headers From integer To xth defenses - up to 9E16 (2^63)
 var nth = function(i) {
