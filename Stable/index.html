@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responder</title>
+    
+    <link rel="stylesheet" href="responder.css">
+
+    <script src="Answer/globals.js"></script>
+
+    <script src="Answer/Answer.js"></script>
+    <link rel="stylesheet" href="Answer/Answer.css">
+
+    <script src="Answer/Preview/Answer_Preview.js"></script>
+    <script src="Answer/Preview/display.js"></script>
+    <link rel="stylesheet" href="Answer/Preview/answer_preview.css">
+
+    <script src="Answer/Defenses/list_defenses.js"></script>
+    <script src="Answer/Defenses/defenses.js"></script>
+    <link rel="stylesheet" href="Answer/Defenses/defenses.css">
+
+    
+    <script src="Answer/Responses/responses.js"></script>
+    <link rel="stylesheet" href="Answer/Responses/responses.css">
+
+    <script src="RFA/RFA.js"></script>
+
+    <script src="Other/Other.js"></script>
+
+    <script src="RFA/rfa_objections.js"></script>
+
+    <script src="generator.js"></script>
+
+    <script src="scales.js"></script>
+    <script>console.log(scales)</script>
+</head>
+<body>
+    <div id="root_disp">
+        <div id="static_disp">
+            <div id="doc_requirements">
+                <div id="doc_types">
+                    <label> Type of Document:
+                        <select id="doc_choice">
+                            <option value = "" ></option>
+                            <option value = "Answer" selected="true">Answer</option>
+                            <option value = "RFA">RFA</option>
+                            <option value = "Other" >Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div id="doc_pararagraphs">
+                    <label> Number of paragraphs:
+                        <input type="number" id="response_paragraphs_total" style="width: 40px" min="1" value="1">
+                    </label>
+                </div>
+                <button id="inputs_button" onclick="generateInputs()">Generate Inputs</button> <!-- generator.js -->
+            </div>
+            <div id="lockout_text" hidden><i>Controls have been locked to prevent loss of work.  Refresh page to start over.</i></div>
+        </div>
+        <div id="dynamic_disp">
+
+        </div>
+    </div>
+</body>
+</html>
