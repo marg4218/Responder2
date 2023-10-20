@@ -7,16 +7,16 @@ function makeAnswer(pars)
     listDefCategories(); // list_defenses.js
     listDefenses();      // list_defenses.js
 
-    promptResponses(pars);
+    promptResponses(pars); // responses.js
 
-    makeAnswerPreview();
+    makeAnswerPreview();  // Answer_Preview.js
 }
 
 
 function setAnswerLayout()
 {
     // top level: answer_div
-    let answer_prompts = newDiv('dynamic_disp', 'answer_div');
+    let answer_prompts = newDiv('dynamic_disp', 'answer_div'); // globals.js
 
     /// Defenses
     let defenses_column = newDiv('answer_div', 'defenses_div');
