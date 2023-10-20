@@ -2,10 +2,10 @@ function makeAnswer(pars)
 {
     console.log(`Generating Answer Responder for ${pars} paragraphs.`)
 
-    setAnswerLayout();
+    setAnswerLayout();  // see below
 
-    listDefCategories();
-    listDefenses();
+    listDefCategories(); // list_defenses.js
+    listDefenses();      // list_defenses.js
 
     promptResponses(pars);
 

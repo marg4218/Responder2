@@ -16,16 +16,16 @@ function generateInputs()
     switch (doc)
     {
         case 'Answer':
-            disableHeadInputs();
-            makeAnswer(pars); // Answer.js
+            disableHeadInputs();    // see below
+            makeAnswer(pars);       // Answer.js
             break;
         case 'RFA':
-            disableHeadInputs();
-            makeRFA(pars);
+            disableHeadInputs();    // see below
+            makeRFA(pars);          // TBD
             break;
         case 'Other':
-            disableHeadInputs();
-            makeOther(pars);
+            disableHeadInputs();    // see below
+            makeOther(pars);        // TBD
             break;
         case '':
             alert('Please select a Document Type from the drop-down list.');
