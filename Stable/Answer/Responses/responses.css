@@ -12,3 +12,8 @@ table, th, td {
     background-color: rgb(247, 177, 72);
     color: black;
 }
+
+.responses_display {
+    overflow-y: auto;
+    height: 900px;
+}
