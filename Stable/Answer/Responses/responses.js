@@ -40,6 +40,7 @@ function responsePrompts(resp_no)
                 <option value=" " selected="true"> </option>
                 <option value="admit">Admit</option>
                 <option value="deny">Deny</option>
+                <option value="deny_pc">Deny PC</option>
                 <option value="insuff">Insufficient info</option>
                 <option value="not_subject">Not Subject to A/D</option>
                 <option value="other">Other</option>
@@ -71,6 +72,10 @@ function hoist_response(resp_no)
     else if (this_resp == "deny")
     {
         response_long.innerText = `Defendant denies these allegations.`;
+    }
+    else if (this_resp == "deny_pc")
+    {
+        response_long.innerText = `Defendant denies that the Defendant's actions proximately caused the injuries complained of by the Plaintiff.`;
     }
     else if (this_resp == "insuff")
     {
