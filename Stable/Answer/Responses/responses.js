@@ -1,6 +1,6 @@
 
 function promptResponses(pars) {
-    var resp_div = newDiv('responses_div', 'responses_diplay');
+    var resp_div = newDiv('responses_div', 'responses_display');
     makeResponseTable(resp_div);
 
     for (let step = 0; step < pars; step++) 
