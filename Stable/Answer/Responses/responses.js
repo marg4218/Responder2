@@ -116,10 +116,12 @@ function toggleResponseEdit(resp_number) {
         if (checkbox.checked)
         {
             response.setAttribute("disabled","");
-            boiler.setAttribute("disabled", "");
+            //boiler.setAttribute("disabled", "");
+            boiler.readOnly = true;
         } else
         {
             response.removeAttribute("disabled");
-            boiler.removeAttribute("disabled");
+            //boiler.removeAttribute("disabled");
+            boiler.readOnly = false;
         }
 }
