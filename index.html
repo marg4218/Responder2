@@ -4,35 +4,26 @@
 
     <title>Responder</title>
     
-    <link rel="stylesheet" href="/Stable/responder.css"></link>
+    <link rel="stylesheet" href="styles.responder.css">
+    <link rel="stylesheet" href="styles.answer_preview.css">
+    <link rel="stylesheet" href="styles.answer.defenses.css">
+    <link rel="stylesheet" href="styles.responses.css">
+    <link rel="stylesheet" href="styles.Answer.css">
 
-    <script src="./Stable/Answer/globals.js"></script>
-
-    <script src="./Stable/Answer/Answer.js"></script>
-    <link rel="stylesheet" href="./Stable/Answer/Answer.css"></link>
-
-    <script src="./Stable/Answer/Preview/Answer_Preview.js"></script>
-    <script src="./Stable/Answer/Preview/display.js"></script>
-    <link rel="stylesheet" href="./Stable/Answer/Preview/answer_preview.css"></link>
-
-    <script src="./Stable/Answer/Defenses/list_defenses.js"></script>
-    <script src="./Stable/Answer/Defenses/defenses.js"></script>
-    <link rel="stylesheet" href="./Stable/Answer/Defenses/defenses.css"></link>
+    <script src="scripts.globals.js"></script>
+    <script src="scripts.Answer.js"></script>
+    <script src="scripts.responses.js"></script>
+    <script src="scripts.generator.js"></script>
+    <script src="scripts.scales.js"></script>
+    <script src="scripts.Answer_Preview.js"></script>
+    <script src="scripts.display.js"></script>
+    <script src="scripts.list_defenses.js"></script>
+    <script src="scripts.defenses.js"></script>
 
     
-    <script src="./Stable/Answer/Responses/responses.js"></script>
-    <link rel="stylesheet" href="./Stable/Answer/Responses/responses.css"></link>
 
-    <script src="./Stable/RFA/RFA.js"></script>
 
-    <script src="./Stable/Other/Other.js"></script>
-
-    <script src="./Stable/RFA/rfa_objections.js"></script>
-
-    <script src="./Stable/generator.js"></script>
-
-    <script>
-    </script>
+    <script>console.log(scales)</script>
 </head>
 <body>
     <div id="root_disp">
@@ -50,7 +41,7 @@
                 </div>
                 <div id="doc_pararagraphs">
                     <label> Number of paragraphs:
-                        <input type="number" id="response_paragraphs_total" style="width: 40px" min="1" value="1"></input>
+                        <input type="number" id="response_paragraphs_total" style="width: 40px" min="1" value="1">
                     </label>
                 </div>
                 <button id="inputs_button" onclick="generateInputs()">Generate Inputs</button> <!-- generator.js -->
