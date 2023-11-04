@@ -13,7 +13,5 @@ table, th, td {
     color: black;
 }
 
-.responses_display {
-    overflow-y: auto;
-    height: 900px;
+.resp_table {
 }
