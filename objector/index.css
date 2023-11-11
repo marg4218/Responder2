@@ -1,0 +1,23 @@
+body {
+    
+}
+
+#root_div {
+    background-color: black;
+    color: blueviolet;
+
+    width: 900px;
+    height: 800px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#inputs_div {
+    background-color: gray;
+}
+
+#outputs_div {
+    background-color: darkblue;
+}
